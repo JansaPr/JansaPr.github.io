@@ -1,0 +1,97 @@
+/* Dark mode customization */
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+#header {
+  background-color: #0a0a0a !important;
+}
+
+#header nav ul li a {
+  color: #ffffff !important;
+}
+
+#header nav ul li a:hover {
+  color: #cccccc !important;
+}
+
+#title {
+  border-bottom: 1px solid #333333 !important;
+}
+
+#title h1 {
+  color: #ffffff !important;
+}
+
+#title p {
+  color: #cccccc !important;
+}
+
+#title .credits {
+  color: #888888 !important;
+}
+
+#title .credits a {
+  color: #ffffff !important;
+}
+
+section {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+a {
+  color: #66b3ff !important;
+}
+
+a:hover {
+  color: #99ccff !important;
+}
+
+code {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+pre {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333333 !important;
+}
+
+pre code {
+  color: #ffffff !important;
+}
+
+blockquote {
+  border-left: 3px solid #333333 !important;
+  color: #cccccc !important;
+}
+
+table {
+  border: 1px solid #333333 !important;
+}
+
+table th {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+  border: 1px solid #333333 !important;
+}
+
+table td {
+  border: 1px solid #333333 !important;
+  color: #ffffff !important;
+}
+
+hr {
+  border-color: #333333 !important;
+}
+
+.wrapper {
+  background-color: #000000 !important;
+}

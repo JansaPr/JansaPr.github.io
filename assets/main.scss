@@ -1,0 +1,24 @@
+---
+# Only main.scss needs these front matter dashes
+---
+@import "minima";
+
+// Define your dark mode colors
+$brand-color:       #82aaff;
+$text-color:        #d0d0d0;
+$background-color:  #181a1b;
+$code-bg-color:     #232627;
+$link-base-color:   #40b4ff;
+$link-visited-color: #c792ea;
+
+body {
+  color: $text-color;
+  background-color: $background-color;
+}
+
+// Target specific Minima elements
+.site-title, .site-title:visited { color: $text-color; }
+.site-nav { background-color: $background-color; border-color: $code-bg-color; }
+.page-link { color: $text-color; }
+.post-meta { color: #888; }
+.post-link { color: $brand-color; }
