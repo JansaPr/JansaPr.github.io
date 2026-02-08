@@ -1,0 +1,44 @@
+{{ define "main" }}
+  <div class="army-builder">
+    <header class="army-builder__header">
+      <h1 class="army-builder__title">{{ .Title }}</h1>
+      <p class="army-builder__subtitle">Drag units from the pool into your roster. Reorder your roster to plan activations.</p>
+    </header>
+
+    <div class="army-builder__layout">
+      <section class="army-builder__panel army-builder__panel--pool">
+        <h2 class="army-builder__panel-title">Unit Pool</h2>
+        <p class="army-builder__panel-hint">Drag a unit to the roster. Units in the pool stay available.</p>
+        <ul class="army-builder__list" id="unit-pool" aria-label="Unit pool">
+          {{ range site.Data.units }}
+            {{ partial "unit-card.html" . }}
+          {{ end }}
+        </ul>
+      </section>
+
+      <aside class="army-builder__sidebar" aria-label="Roster sidebar">
+        <section class="army-builder__stats" aria-live="polite">
+          <div class="army-builder__stat">
+            <span class="army-builder__stat-label">Total Units</span>
+            <span class="army-builder__stat-value" id="roster-count">0</span>
+          </div>
+          <div class="army-builder__stat">
+            <span class="army-builder__stat-label">Total Cost</span>
+            <span class="army-builder__stat-value" id="roster-cost">0</span>
+          </div>
+        </section>
+
+        <section class="army-builder__panel army-builder__panel--roster">
+          <h2 class="army-builder__panel-title">Roster</h2>
+          <p class="army-builder__panel-hint">Drop units here to build your army.</p>
+          <ul class="army-builder__list army-builder__list--drop" id="army-roster" aria-label="Army roster">
+            <li class="army-builder__empty" id="roster-empty">Drop units here</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="{{ "army-builder/army-builder.css" | relURL }}">
+  <script defer src="{{ "army-builder/army-builder.js" | relURL }}"></script>
+{{ end }}

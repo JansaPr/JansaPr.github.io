@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Units on </title>
+    <link>//localhost:1313/units/</link>
+    <description>Recent content in Units on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/units/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arcane Scout</title>
+      <link>//localhost:1313/units/arcane-scout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/units/arcane-scout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shieldbearers</title>
+      <link>//localhost:1313/units/shieldbearers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/units/shieldbearers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storm Drake</title>
+      <link>//localhost:1313/units/storm-drake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/units/storm-drake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vanguard Hero</title>
+      <link>//localhost:1313/units/vanguard-hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/units/vanguard-hero/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

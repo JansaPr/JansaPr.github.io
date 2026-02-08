@@ -1,0 +1,6 @@
+{{ $cost := .cost | default 0 }}
+{{ $type := .unit_type | default "Unit" }}
+<li class="army-builder__card" draggable="true" data-cost="{{ $cost }}" data-type="{{ $type }}">
+  <div class="army-builder__card-title">{{ .title | default "Untitled Unit" }}</div>
+  <div class="army-builder__card-meta">{{ $type }} • Cost {{ $cost }}</div>
+</li>

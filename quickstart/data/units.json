@@ -1,0 +1,26 @@
+[
+  {
+    "id": "vanguard-hero",
+    "title": "Vanguard Hero",
+    "cost": 4,
+    "unit_type": "Hero"
+  },
+  {
+    "id": "shieldbearers",
+    "title": "Shieldbearers",
+    "cost": 2,
+    "unit_type": "Troop"
+  },
+  {
+    "id": "storm-drake",
+    "title": "Storm Drake",
+    "cost": 6,
+    "unit_type": "Monster"
+  },
+  {
+    "id": "arcane-scout",
+    "title": "Arcane Scout",
+    "cost": 3,
+    "unit_type": "Hero"
+  }
+]
